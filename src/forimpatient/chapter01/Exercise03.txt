@@ -1,0 +1,8 @@
+3. Are the res variables val or var?
+
+They are val, e.g. trying to assign a new value causes an exception:
+
+scala> res2 = 5
+<console>:17: error: reassignment to val
+       res2 = 5
+            ^
