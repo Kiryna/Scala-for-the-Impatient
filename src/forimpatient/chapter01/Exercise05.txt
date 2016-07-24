@@ -1,0 +1,19 @@
+5. What does 10 max 2 mean? In which class is the max method defined?
+
+The above returns the max from two values (in this particular case it is 10):
+
+scala> 10 max 2
+res1: Int = 10
+
+This is the same as:
+
+scala> 10.max(2)
+res2: Int = 10
+
+It is defined in: http://www.scala-lang.org/api/current/#scala.runtime.RichInt
+
+def max(that: Int): Int
+
+    Returns this if this > that or that otherwise.
+
+    Definition Classes     RichInt → ScalaNumberProxy

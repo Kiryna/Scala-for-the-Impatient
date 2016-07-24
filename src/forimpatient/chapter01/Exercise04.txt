@@ -4,7 +4,7 @@ operation do? Where can you find it in Scaladoc?
 scala> "crazy" * 3
 res0: String = crazycrazycrazy
 
-The operation return a String that contains an initial String duplicated n times (whether n is an argument of * function)
+The operation return a String that contains an initial String duplicated n times (whether n is an argument of * method)
 
 The above can be found in Scaladoc: http://www.scala-lang.org/api/current/#scala.collection.immutable.StringLike
 
