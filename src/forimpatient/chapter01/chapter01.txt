@@ -1,0 +1,12 @@
+1. In the Scala REPL, type 3. followed by the Tab key. What methods can be applied?
+
+scala> 3.
+!=   <    >>>         doubleValue   isNaN           isValidShort   shortValue       toDouble        toShort
+%    <<   ^           floatValue    isNegInfinity   isWhole        signum           toFloat         unary_+
+&    <=   abs         floor         isPosInfinity   longValue      to               toHexString     unary_-
+*    ==   byteValue   getClass      isValidByte     max            toBinaryString   toInt           unary_~
++    >    ceil        intValue      isValidChar     min            toByte           toLong          underlying
+-    >=   compare     isInfinite    isValidInt      round          toChar           toOctalString   until
+/    >>   compareTo   isInfinity    isValidLong     self           toDegrees        toRadians       |
+
+scala> 3.
