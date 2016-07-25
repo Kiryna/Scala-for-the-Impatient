@@ -13,6 +13,5 @@ package forimpatient.chapter13
 object Exercise04 extends App {
   println(mapCollections(Array("Tom", "Fred", "Harry"), Map("Tom" -> 3, "Dick" -> 4, "Harry" -> 5)))
 
-//  def mapCollections(s: Seq[String], m: Map[String, Int]) = (for (a <- s) yield m.getOrElse(a, Nil)).filter(_ != Nil)
   def mapCollections(s: Seq[String], m: Map[String, Int]) = s.flatMap(m.get(_))
 }
