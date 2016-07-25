@@ -13,10 +13,8 @@ import scala.util.Random
   * doing this in Scala.
   */
 object Exercise08 extends App {
-  override def main(args: Array[String]): Unit = {
-    println("Chapter 01 Exercise 08")
+  println("Chapter 01 Exercise 08")
 
-    val name = probablePrime(100, Random).toString(36)
-    println(name)
-  }
+  val name = probablePrime(100, Random).toString(36)
+  println(name)
 }

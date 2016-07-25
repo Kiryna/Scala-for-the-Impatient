@@ -10,12 +10,10 @@ package forimpatient.chapter12
   * collection of pairs (-5, 25), (-4, 16), (-3, 9), . . ., (5, 25).
   */
 object Exercise01 extends App {
-  override def main(args: Array[String]): Unit = {
-    println("Chapter 12 Exercise 01")
+  println("Chapter 12 Exercise 01")
 
-    def values(fun: (Int) => Int, low: Int, high: Int) = for (el <- low to high) yield (el, fun(el))
+  def values(fun: (Int) => Int, low: Int, high: Int) = for (el <- low to high) yield (el, fun(el))
 
-    println(values(x => x * x, -5, 5))
-    println(values(x => -x, -5, 5))
-  }
+  println(values(x => x * x, -5, 5))
+  println(values(x => -x, -5, 5))
 }
