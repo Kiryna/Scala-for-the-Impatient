@@ -1,0 +1,11 @@
+7. What do you need to import so that you can get a random prime as probablePrime(100, Random),
+without any qualifiers before probablePrime and Random?
+
+scala> import BigInt._
+import BigInt._
+
+scala> import util.Random
+import util.Random
+
+scala> probablePrime(100, Random)
+res0: scala.math.BigInt = 923016705296447069268236878429
