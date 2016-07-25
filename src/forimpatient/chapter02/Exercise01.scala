@@ -3,7 +3,10 @@ package forimpatient.chapter02
 /**
   * Created by Iryna Kharaborkina on 7/25/16. 
   *
-  * Solution to the forimpatient.chapter02 Exercise 08 'Scala for the Impatient' by Horstmann C.S.
+  * Solution to the Chapter 02 Exercise 01 'Scala for the Impatient' by Horstmann C.S.
+  *
+  * The signum of a number is 1 if the number is positive, –1 if it is negative, and 0 if it is zero.
+  * Write a function that computes this value.
   */
 object Exercise01 extends App {
   override def main(args: Array[String]): Unit = {
