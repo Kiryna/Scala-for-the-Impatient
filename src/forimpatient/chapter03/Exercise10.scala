@@ -17,7 +17,7 @@ import scala.collection.JavaConversions.asScalaBuffer
   * java.util.List in the standard Java library.)
   */
 object Exercise10 extends App {
-  println("Chapter 03 Exercise 09")
+  println("Chapter 03 Exercise 10")
 
   val flavors = SystemFlavorMap.getDefaultFlavorMap().asInstanceOf[SystemFlavorMap]
   val imageFlavors: mutable.Buffer[String] = flavors.getNativesForFlavor(DataFlavor.imageFlavor)
