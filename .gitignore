@@ -18,3 +18,5 @@ project/plugins/project/
 .idea
 *.iml
 out/
+/src/forimpatient/chapter09/fredfrends.obj
+/src/forimpatient/chapter09/tanyafrends.obj
