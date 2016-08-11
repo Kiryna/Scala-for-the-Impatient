@@ -17,7 +17,6 @@ object Exercise03 extends App {
   println(swap(Array(5)).mkString(", "))
 
   def swap(arr: Array[Int]) = arr match {
-    case Array(a, b) => Array(b, a)
     case Array(a, b, tail @ _*) => Array(b, a) ++ tail
     case _ => arr
   }
