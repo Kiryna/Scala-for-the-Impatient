@@ -9,6 +9,9 @@ import scala.beans.BeanProperty
   * Created by Iryna Kharaborkina on 8/15/16. 
   *
   * Solution to the Chapter 15 Exercise 03 'Scala for the Impatient' by Horstmann C.S.
+  *
+  * Which annotations from the Scala library use one of the meta-annotations @param
+  * or @field, @getter, @setter, @beanGetter, or @beanSetter?
   */
 object Exercise03 extends App {
   println("Chapter 15 Exercise 03")

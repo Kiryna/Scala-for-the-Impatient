@@ -2,8 +2,6 @@ package forimpatient.chapter15
 
 import scala.annotation.elidable
 import scala.annotation.elidable.FINE
-import scala.annotation.meta.beanGetter
-import scala.beans.BeanProperty
 
 /**
   * Created by Iryna Kharaborkina on 8/13/16. 
