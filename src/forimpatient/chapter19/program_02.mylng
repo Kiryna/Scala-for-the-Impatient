@@ -1,0 +1,55 @@
+a_1 = 2^10
+out = a_1
+a = 4
+
+def print_two(n m) = {
+    out = n
+    out = m
+    return m + mod_three(n)
+}
+
+def prod(n k) = {
+    return n * k
+}
+
+def mod_three(n) = {
+    return prod(n 4) % 3
+}
+
+def greater(a b) = {
+    if (a > b) {
+        return prod(a 10)
+    } else {
+        return prod(b 10)
+    }
+}
+
+if (a % 2 == 0) {
+    a = 7;
+    if (a < 2) {
+        out = a + 1
+    } else {
+        out = a
+    }
+    a = 12
+    while (a > 0) {
+        b = a
+        while (b < 10) {
+            out = b * 1000;
+            b = b + 1
+        }
+        out = a
+        a = a - 1
+    }
+} else {
+    out = a
+}
+out = 100500 + a
+out = print_two(2 5)
+out = print_two(200 500)
+
+out = 1000 + mod_three(41)
+out = mod_three(9)
+
+out = n + 10
+out = greater(45 * a mod_three(8))

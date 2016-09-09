@@ -1,0 +1,24 @@
+a_1 = 2^10
+out = a_1
+a = 4
+if (a % 2 == 0) {
+    a = 7;
+    if (a < 2) {
+        out = a + 1
+    } else {
+        out = a
+    }
+    a = 12
+    while (a > 0) {
+        b = a
+        while (b < 10) {
+            out = b * 1000;
+            b = b + 1
+        }
+        out = a
+        a = a - 1
+    }
+} else {
+    out = a
+}
+out = 100500 + a
